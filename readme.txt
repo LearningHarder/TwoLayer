@@ -1,0 +1,6 @@
+模型设置在neural_net.py文件中
+主程序为main.py，包括数据读取，训练，调参，模型保存，模型导入和测试，网络参数可视化
+bestmodelparams_randomsearch.npz文件中包含网络的四个参数W1,W2,h1,h2
+log_randomsearch.txt保存了参数搜索过程的所有结果
+images包含最优模型的loss和accuracy曲线，网络参数可视化图
+MNIST_data为数据集
